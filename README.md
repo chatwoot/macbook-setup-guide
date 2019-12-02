@@ -86,6 +86,19 @@ brew install redis
 
     Follow instructions at https://postgresapp.com.
 
+6. Brew services menubar
+ 
+ ```bash
+  brew cask install brewservicesmenubar
+  ```
+7. Evernote 
+    ```bash
+    brew cask install evernote
+    ```
+ 
+    
+    
+
 ### Configuring Git
 
 Run all following commands.
