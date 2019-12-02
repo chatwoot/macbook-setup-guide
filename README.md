@@ -87,15 +87,24 @@ brew install redis
     Follow instructions at https://postgresapp.com.
 
 6. Brew services menubar
- 
- ```bash
-  brew cask install brewservicesmenubar
-  ```
+  
+  ```bash
+   brew cask install brewservicesmenubar
+   ```
 7. Evernote 
-    ```bash
-    brew cask install evernote
-    ```
+   
+   ```bash
+   brew cask install evernote
+   ```
+8. Postico
+
+    Follow instructions at https://eggerapps.at/postico/
+
+9. SmartGit
+
+    Follow instructions at https://www.syntevo.com/smartgit/
  
+     
     
     
 
