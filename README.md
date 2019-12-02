@@ -87,10 +87,11 @@ brew install redis
     Follow instructions at https://postgresapp.com.
 
 6. Brew services menubar
-  
-  ```bash
+   
+   ```bash
    brew cask install brewservicesmenubar
    ```
+
 7. Evernote 
    
    ```bash
