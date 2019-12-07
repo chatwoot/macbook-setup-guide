@@ -85,8 +85,10 @@ brew install redis
 5. Postgres.app
 
     Follow instructions 
-    https://www.robinwieruch.de/postgres-sql-macos-setup
-    https://stackoverflow.com/a/7975660/3901856
+    
+    * https://www.robinwieruch.de/postgres-sql-macos-setup
+    * https://stackoverflow.com/a/7975660/3901856
+    * https://stackoverflow.com/a/35308200/3901856
     
 6. Brew services menubar
    
