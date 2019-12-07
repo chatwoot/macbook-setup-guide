@@ -51,7 +51,7 @@ brew install yarn # Alternative to npm
 brew install python3
 brew install the_silver_searcher
 brew install libyaml
-brew install redis
+brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2faa0aa8
 ```
 
 **NOTE:** DO NOT use Homebrew to install `node` or `ruby` package.
