@@ -1,3 +1,5 @@
+[Start from here](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
+
 # Laptop
 
 This guide enlists common steps to set up your laptop for the day to day local development.
