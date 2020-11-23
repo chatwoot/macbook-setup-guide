@@ -1,3 +1,5 @@
+
+### Refer https://github.com/ohmyzsh/ohmyzsh
 alias os='cd ~/projects/oss'
 alias tw='cd ~/projects/thoughtwoot'
 alias gp='cd ~/projects/goprospero'
