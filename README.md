@@ -195,6 +195,8 @@ rbenv local 1.9.3-p327
 
 ### Installing Node
 
+https://jamesauble.medium.com/install-nvm-on-mac-with-brew-adb921fb92cc
+
 We recommend to use `nvm` (https://github.com/nvm-sh/nvm) to manage versions of Node.
 
 #### Installing nvm
