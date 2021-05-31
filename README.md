@@ -112,6 +112,8 @@ brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2
     Follow instructions at https://www.syntevo.com/smartgit/
 
 10. https://responsively.app/
+
+11. https://github.com/sfsam/Itsycal
     
 
 ### Configuring Git
