@@ -107,9 +107,9 @@ brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2
 
     Follow instructions at https://eggerapps.at/postico/
 
-9. SmartGit
+9. Git fork
 
-    Follow instructions at https://www.syntevo.com/smartgit/
+    Follow instructions at https://git-fork.com/
 
 10. https://responsively.app/
 
