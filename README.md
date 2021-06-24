@@ -65,25 +65,25 @@ brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2
 1. iTerm2 (alternative to the `Terminal` application)
 
     ```bash
-    brew cask install iterm2
+    brew install --cask iterm2
     ```
 
 2. Slack (the chatting application we use for internal communication)
 
     ```bash
-    brew cask install slack
+    brew install --cask slack
     ```
 
 3. Google Chrome
 
     ```bash
-    brew cask install google-chrome
+    brew install --cask google-chrome
     ```
 
 4. Zoom.us (used to have team calls)
 
     ```bash
-    brew cask install zoomus
+    brew install --cask zoomus
     ```
 
 5. Postgres.app
@@ -97,13 +97,13 @@ brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2
 6. Brew services menubar
    
    ```bash
-   brew cask install brewservicesmenubar
+   brew install --cask brewservicesmenubar
    ```
 
 7. Evernote 
    
    ```bash
-   brew cask install evernote
+   brew install --cask evernote
    ```
 8. Postico
 
