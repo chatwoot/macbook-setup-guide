@@ -25,17 +25,7 @@ This guide enlists common steps to set up your laptop for the day to day local d
 
 ## Setting up macOS
 
-### Installing Homebrew package manager
-
-1. Run the following command to install Homebrew.
-
-    ```bash
-    curl -fsS 'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
-    ```
-
-2. Append `export PATH="/usr/local/bin:$PATH"` to the `~/.bashrc` file.
-3. Run `source ~/.bashrc` command.
-4. Ensure that `brew --version` command prints the Homebrew version. If you can see the version, it means that Homebrew is successfully installed.
+### Install Homebrew package manager
 
 ### Installing essential utilities/tools using Homebrew
 
