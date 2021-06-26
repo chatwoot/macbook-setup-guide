@@ -130,19 +130,30 @@ nvm install node --reinstall-packages-from=node
 
 ### Configuring Git
 
-Run all following commands.
+The first thing you should do with Git is set your [global configuration](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 ```bash
-git config --global alias.co checkout
-git config --global alias.ci commit
-git config --global alias.st status
-git config --global color.branch auto
-git config --global color.diff auto
-git config --global color.interactive auto
-git config --global color.status auto
-git config --global branch.autosetuprebase always
-git config --global push.default current
-git config --global core.mergeoptions --no-edit
+touch ~/.gitconfig
+```
+Input your config and create some aliases. Run all following commands.
+
+```bash
+[alias]
+  a      = add
+  ca     = commit -a
+  cam    = commit -am
+  cm     = commit -m
+  s      = status
+  p      = push
+  pom    = push origin master
+  puom   = pull origin master
+  cob    = checkout -b
+  co     = checkout
+  fp     = fetch --prune --all
+  l      = log --oneline --decorate --graph
+  lall   = log --oneline --decorate --graph --all
+  ls     = log --oneline --decorate --graph --stat
+  lt     = log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset'
 ```
 
 Configure your name and email to help Git to set the author of the commits you will add onwards.
