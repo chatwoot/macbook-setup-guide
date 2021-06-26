@@ -1,27 +1,21 @@
+# Mac setup guide
 
-1. [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
-2. [Setup Macbook M1 for Web and React Native development](https://amanhimself.dev/blog/setup-macbook-m1/)
+This guide enlists common steps to set up your macbook for the day to day local development.
 
-# Laptop
 
-This guide enlists common steps to set up your laptop for the day to day local development.
-
-- [Laptop](#laptop)
-  - [Setting up macOS](#setting-up-macos)
-    - [Installing Homebrew package manager](#installing-homebrew-package-manager)
-    - [Installing essential utilities/tools using Homebrew](#installing-essential-utilitiestools-using-homebrew)
-    - [Installing common desktop applications](#installing-common-desktop-applications)
-    - [Configuring Git](#configuring-git)
-    - [Installing Ruby](#installing-ruby)
-      - [Installing rbenv](#installing-rbenv)
-      - [Installing a Ruby version using rbenv](#installing-a-ruby-version-using-rbenv)
-      - [Useful rbenv commands](#useful-rbenv-commands)
-    - [Installing Node](#installing-node)
-      - [Installing nvm](#installing-nvm)
-      - [Install a node version using nvm](#install-a-node-version-using-nvm)
-      - [Useful nvm commands](#useful-nvm-commands)
-    - [Customizing terminal prompt](#customizing-terminal-prompt)
-    - [Generating a new SSH key](#generating-a-new-ssh-key)
+- [Install Homebrew package manager](#install-homebrew-package-manager)
+- [Install Apps](#install-apps)
+- [Configuring Git](#configuring-git)
+- [Installing Ruby](#installing-ruby)
+  - [Installing rbenv](#installing-rbenv)
+  - [Installing a Ruby version using rbenv](#installing-a-ruby-version-using-rbenv)
+  - [Useful rbenv commands](#useful-rbenv-commands)
+- [Installing Node](#installing-node)
+    - [Installing nvm](#installing-nvm)
+    - [Install a node version using nvm](#install-a-node-version-using-nvm)
+    - [Useful nvm commands](#useful-nvm-commands)
+- [Customizing terminal prompt](#customizing-terminal-prompt)
+- [Generating a new SSH key](#generating-a-new-ssh-key)
 
 ## Setting up macOS
 
@@ -292,3 +286,9 @@ To see your public key
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
+
+
+
+
+1. [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
+2. [Setup Macbook M1 for Web and React Native development](https://amanhimself.dev/blog/setup-macbook-m1/)
