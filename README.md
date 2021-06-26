@@ -78,9 +78,7 @@ brew update
 
 ### Installing Node
 
-https://jamesauble.medium.com/install-nvm-on-mac-with-brew-adb921fb92cc
-
-We recommend to use `nvm` (https://github.com/nvm-sh/nvm) to manage versions of Node.
+We recommend to use [nvm](https://github.com/nvm-sh/nvm) to install Node.js. This allows you to easily switch between Node versions, which is essential.
 
 #### Installing nvm
 
