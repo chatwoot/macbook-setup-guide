@@ -49,7 +49,9 @@ brew update
 
 - [VSCode](https://code.visualstudio.com/download)
 
-- [Fork](https://git-fork.com/)
+- [Git Fork](https://git-fork.com/)
+
+- [Ohmyz](https://ohmyz.sh/)
 
 
 
@@ -66,10 +68,6 @@ brew update
 
     Follow instructions at https://eggerapps.at/postico/
 
-9. Git fork
-
-    Follow instructions at https://git-fork.com/
-
 10. https://responsively.app/
 
 11. https://github.com/sfsam/Itsycal
@@ -77,6 +75,60 @@ brew update
 
 12. https://apps.apple.com/app/id1569600264
     
+
+### Installing Node
+
+https://jamesauble.medium.com/install-nvm-on-mac-with-brew-adb921fb92cc
+
+We recommend to use `nvm` (https://github.com/nvm-sh/nvm) to manage versions of Node.
+
+#### Installing nvm
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+#### Install a latest node version
+
+```bash
+nvm install node
+```
+
+#### Install a specific node version using nvm
+
+To install, say node 8.14.0, run
+
+```bash
+nvm install 8.14.0
+```
+
+#### Useful nvm commands
+
+If you want to see what node versions are installed
+
+```bash
+nvm ls
+```
+
+To use a different node version, say 12.6.0 as the default node version everywhere
+
+```bash
+nvm alias default 12.6.0
+```
+
+To use a different node version for the current directory
+
+```bash
+nvm use 10.16.0
+```
+
+#### Update nvm
+For later, here's how to update nvm.
+
+```bash
+nvm install node --reinstall-packages-from=node
+```
+
 
 ### Configuring Git
 
