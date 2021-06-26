@@ -135,7 +135,7 @@ The first thing you should do with Git is set your [global configuration](https:
 ```bash
 touch ~/.gitconfig
 ```
-Input your config and create some aliases. Run all following commands.
+Input your config and create some aliases
 
 ```bash
 [alias]
@@ -155,6 +155,7 @@ Input your config and create some aliases. Run all following commands.
   ls     = log --oneline --decorate --graph --stat
   lt     = log --graph --decorate --pretty=format:'%C(yellow)%h%Creset%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset'
 ```
+With the above aliases, I can run `git a` instead of `git add`, for example. The less I have to type, the happier I am.
 
 Configure your name and email to help Git to set the author of the commits you will add onwards.
 
@@ -162,6 +163,7 @@ Configure your name and email to help Git to set the author of the commits you w
 git config --global user.name "Your Name Here" # e.g. John Doe
 git config --global user.email "your.email@bigbinary.com"
 ```
+
 
 ### Installing Ruby
 
