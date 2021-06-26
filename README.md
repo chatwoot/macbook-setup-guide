@@ -27,54 +27,31 @@ This guide enlists common steps to set up your laptop for the day to day local d
 
 ### Install Homebrew package manager
 
-### Installing essential utilities/tools using Homebrew
-
-Run following commands to install essential utilities using Homebrew.
+Run following command in terminal
 
 ```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+Make sure everything is up to date.
+```bash
 brew update
-brew install vim # text editor
-brew install git
-brew install openssl
-brew install coreutils
-brew install tree
-brew install hub # https://github.com/github/hub
-brew install wget
-brew install imagemagick
-brew install yarn # Alternative to npm
-brew install python3
-brew install the_silver_searcher
-brew install libyaml
-brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2faa0aa8
 ```
 
 **NOTE:** DO NOT use Homebrew to install `node` or `ruby` package.
 
-### Installing common desktop applications
+### Install Apps
 
-1. iTerm2 (alternative to the `Terminal` application)
+- [Tree](https://www.sourcetreeapp.com/) (Git IDE https://www.sourcetreeapp.com/)
 
-    ```bash
-    brew install --cask iterm2
-    ```
+- [iTerm2](https://iterm2.com/)
 
-2. Slack (the chatting application we use for internal communication)
+- [Brew services menubar](https://github.com/andrewn/brew-services-menubar)
 
-    ```bash
-    brew install --cask slack
-    ```
+- [VSCode](https://code.visualstudio.com/download)
 
-3. Google Chrome
+- [Fork](https://git-fork.com/)
 
-    ```bash
-    brew install --cask google-chrome
-    ```
 
-4. Zoom.us (used to have team calls)
-
-    ```bash
-    brew install --cask zoomus
-    ```
 
 5. Postgres.app
 
@@ -84,17 +61,7 @@ brew install redis # https://gist.github.com/tomysmile/1b8a321e7c58499ef9f9441b2
     * https://stackoverflow.com/a/7975660/3901856
     * https://stackoverflow.com/a/35308200/3901856
     
-6. Brew services menubar
-   
-   ```bash
-   brew install --cask brewservicesmenubar
-   ```
 
-7. Evernote 
-   
-   ```bash
-   brew install --cask evernote
-   ```
 8. Postico
 
     Follow instructions at https://eggerapps.at/postico/
