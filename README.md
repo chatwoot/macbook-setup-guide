@@ -163,19 +163,6 @@ Set up rbenv in your shell.
 ```bash
 rbenv init
 ```
-
-Follow the printed instructions.
-
-Close your Terminal window and open a new one so your changes take effect.
-
-Verify that rbenv is properly set up using this rbenv-doctor script:
-
-```bash
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
-```
-
-This command would print if everything is okay or not. If something's is not correct, it will instruct on how to troubleshoot and fix that problem.
-
 #### Installing a Ruby version using rbenv
 
 To install, say Ruby 2.5.3, run
@@ -205,8 +192,6 @@ rbenv local 1.9.3-p327
 ```
 
 ### Installing Node
-
-https://jamesauble.medium.com/install-nvm-on-mac-with-brew-adb921fb92cc
 
 We recommend to use `nvm` (https://github.com/nvm-sh/nvm) to manage versions of Node.
 
