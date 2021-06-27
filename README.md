@@ -235,13 +235,13 @@ A default bash terminal prompt looks like this
 
 <img width="408" alt="default-prompt" src="https://user-images.githubusercontent.com/876195/63692949-7517f300-c830-11e9-81d2-7a7b34d2b35c.png">
 
-To display some more information such as the current working directory's path, current git branch and whether the git directory is clean or not, please append the following to your `~/.bashrc` script.
+To display some more information such as the current working directory's path, current git branch and whether the git directory is clean or not, please append the following to your `~/..zshrc` script.
 
 ```bash
 export PS1='\w\[\033[33m\]$(git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/ (\1)/")\[\033[00m\]$([[ -n $(git status -s 2> /dev/null) ]] && echo "\033[0;31m*\033[0m") $ '
 ```
 
-Then run `source ~/.bashrc` command.
+Then run `source ~/..zshrc` command.
 
 This will turn your bash prompt to look like this now
 
