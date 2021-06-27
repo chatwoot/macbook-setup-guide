@@ -12,3 +12,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export NVM_DIR="/Users/muhsink/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# This loads rvm
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
