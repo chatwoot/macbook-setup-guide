@@ -1,9 +1,6 @@
 
 ### Refer https://github.com/ohmyzsh/ohmyzsh
-alias os='cd ~/projects/oss'
-alias tw='cd ~/projects/thoughtwoot'
-alias gp='cd ~/projects/goprospero'
-alias rails_drop_create='rake db:drop:all  &&  rails db:create && rails db:migrate'
+alias cw='cd ~/projects/chatwoot'
 alias myip='ipconfig getifaddr en0'
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
