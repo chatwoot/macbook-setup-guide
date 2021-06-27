@@ -35,7 +35,7 @@ brew update
 
 ### Install Apps
 
-- [Tree](https://www.sourcetreeapp.com/) (Git IDE https://www.sourcetreeapp.com/)
+- [Tree](https://www.sourcetreeapp.com/)
 
 - [iTerm2](https://iterm2.com/)
 
@@ -47,27 +47,13 @@ brew update
 
 - [Ohmyz](https://ohmyz.sh/)
 
-
-
-5. Postgres.app
-
-    Follow instructions 
+- [Postgres.app](https://postgresapp.com/)
     
-    * https://www.robinwieruch.de/postgres-sql-macos-setup
-    * https://stackoverflow.com/a/7975660/3901856
-    * https://stackoverflow.com/a/35308200/3901856
-    
+- [Postico](https://eggerapps.at/postico/)
 
-8. Postico
+- [Itsycal](https://github.com/sfsam/Itsycal)
 
-    Follow instructions at https://eggerapps.at/postico/
-
-10. https://responsively.app/
-
-11. https://github.com/sfsam/Itsycal
-
-
-12. https://apps.apple.com/app/id1569600264
+- [Pandan](https://apps.apple.com/app/id1569600264)
     
 
 ### Installing Node
@@ -161,30 +147,34 @@ git config --global user.email "your.email@bigbinary.com"
 
 ### Installing Ruby
 
-We use `rbenv` (https://github.com/rbenv/rbenv) to manage versions of Ruby.
+We recommend to use [rbenv](https://github.com/rbenv/rbenv) to manage versions of Ruby.
 
 #### Installing rbenv
 
-1. Ensure that rbenv is installed successfully by checking whether the `rbenv -v` command prints rbenv version or not.
+```bash
+brew install rbenv
+```
+
+Ensure that rbenv is installed successfully by checking whether the `rbenv -v` command prints rbenv version or not.
 If not installed, install it using `brew install rbenv` command.
 
-2. Set up rbenv in your shell.
+Set up rbenv in your shell.
 
-    ```bash
+```bash
     rbenv init
-    ```
+```
 
-    Follow the printed instructions.
+Follow the printed instructions.
 
-3. Close your Terminal window and open a new one so your changes take effect.
+Close your Terminal window and open a new one so your changes take effect.
 
-4. Verify that rbenv is properly set up using this rbenv-doctor script:
+Verify that rbenv is properly set up using this rbenv-doctor script:
 
-    ```bash
-    curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
-    ```
+```bash
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
 
-    This command would print if everything is okay or not. If something's is not correct, it will instruct on how to troubleshoot and fix that problem.
+This command would print if everything is okay or not. If something's is not correct, it will instruct on how to troubleshoot and fix that problem.
 
 #### Installing a Ruby version using rbenv
 
