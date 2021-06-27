@@ -161,7 +161,7 @@ If not installed, install it using `brew install rbenv` command.
 Set up rbenv in your shell.
 
 ```bash
-    rbenv init
+rbenv init
 ```
 
 Follow the printed instructions.
