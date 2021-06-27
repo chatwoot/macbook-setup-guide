@@ -193,11 +193,11 @@ rbenv local 1.9.3-p327
 
 ### Installing Node
 
-We recommend to use `nvm` (https://github.com/nvm-sh/nvm) to manage versions of Node.
+We recommend to use [nvm](https://github.com/nvm-sh/nvm) to manage versions of Node.
 
 #### Installing nvm
 
-Follow the installation instructions at https://github.com/nvm-sh/nvm#install--update-script.
+Follow the installation instructions [here](https://github.com/nvm-sh/nvm#install--update-script)
 
 #### Install a node version using nvm
 
