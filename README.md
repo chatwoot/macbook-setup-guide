@@ -228,22 +228,6 @@ To use a different node version for the current directory
 ```bash
 nvm use 10.16.0
 ```
-### Generating a new SSH key
-
-
-```bash
-ssh-keygen -t rsa
-```
-
-This will create a new public, private key pair which you can use to get ssh access to services like github, aws ect.
-
-To see your public key
-
-```bash
-cat ~/.ssh/id_rsa.pub
-```
-
-
 
 
 1. [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
