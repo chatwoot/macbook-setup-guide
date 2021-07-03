@@ -54,6 +54,8 @@ brew update
 - [Itsycal](https://github.com/sfsam/Itsycal)
 
 - [Pandan](https://apps.apple.com/app/id1569600264)
+
+- [Notion](https://www.notion.so/desktop)
     
 
 ### Installing Node
