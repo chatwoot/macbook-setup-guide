@@ -122,13 +122,6 @@ nvm install node --reinstall-packages-from=node
  brew services start redis
 ```
 
-### Installing Redis
-
-```bash
- brew install postgresql
- brew services start postgresql
-```
-
 
 ### Configuring Git
 
