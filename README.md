@@ -46,8 +46,6 @@ brew update
 - [Git Fork](https://git-fork.com/)
 
 - [Ohmyz](https://ohmyz.sh/)
-
-- [Postgres.app](https://postgresapp.com/)
     
 - [Postico](https://eggerapps.at/postico/)
 
@@ -107,6 +105,28 @@ For later, here's how to update nvm.
 
 ```bash
 nvm install node --reinstall-packages-from=node
+```
+
+
+### Installing Postgres
+
+```bash
+ brew install postgresql
+ brew services start postgresql
+```
+
+### Installing Redis
+
+```bash
+ brew install redis
+ brew services start redis
+```
+
+### Installing Redis
+
+```bash
+ brew install postgresql
+ brew services start postgresql
 ```
 
 
