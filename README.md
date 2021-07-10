@@ -4,16 +4,20 @@ This guide enlists common steps to set up your macbook for the day to day local 
 
 
 - [Install Homebrew package manager](#install-homebrew-package-manager)
+- [Make ZSH as default shell](#ensure-zsh-is-default-shell)
 - [Install Apps](#install-apps)
+
+- [Installing Node](#installing-node)
+    - [Installing nvm](#installing-nvm)
+    - [Install a node version using nvm](#install-a-node-version-using-nvm)
+    - [Useful nvm commands](#useful-nvm-commands)
+- [Installing Postgres](#installing-postgres)
+- [Installing Redis](#installing-redis)
 - [Configuring Git](#configuring-git)
 - [Installing Ruby](#installing-ruby)
   - [Installing rbenv](#installing-rbenv)
   - [Installing a Ruby version using rbenv](#installing-a-ruby-version-using-rbenv)
   - [Useful rbenv commands](#useful-rbenv-commands)
-- [Installing Node](#installing-node)
-    - [Installing nvm](#installing-nvm)
-    - [Install a node version using nvm](#install-a-node-version-using-nvm)
-    - [Useful nvm commands](#useful-nvm-commands)
 - [Installing yarn](#installing-yarn)
 
 ## Setting up macOS
@@ -33,7 +37,7 @@ brew update
 **NOTE:** DO NOT use Homebrew to install `node` or `ruby` package.
 
 
-### Ensure ZSH is default shell
+### Make ZSH as default shell
 Before going forward, please make sure `zsh` is your default terminal shell.
 
 You can run `echo $SHELL` to see what's the current shell.
@@ -42,49 +46,6 @@ If it's not your default shell, then set it up manually:
 
 ```bash
 chsh -s $(which zsh)
-```
-
-### Installing [Oh My ZSH](https://ohmyz.sh/)
-
-Oh My Zsh(OMZ) is a delightful, open source, community-driven framework for managing your Zsh configuration.
-
-It comes bundled with thousands of helpful functions, helpers, plugins, themes, and other goodies that will make you say Oh My ...!.
-
-Install OMZ:
-
-```bash
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-Now restart your terminal.
-
-### Add OMZ plugins
-
-To add a new plugin, type the names shown in parentheses below to plugins key, making sure to include a space between each name.
-
-Add the following at the top of your .zshrc:
-
-
-```bash
-plugins=(git ruby rails yarn bundler docker docker-compose brew osx z node)
-```
-
-If you ever feel that your SHELL is slow in starting, then removing few of these plugins is a good step.
-
-### Installing ripgrep
-
-You can search a keyword/sentence within a directory or file and ripgrep will give your the results almost instantly.
-
-ripgrep is really fast when compared to other searching tools like find.
-
-Let's install it:
-```bash
-brew install ripgrep
-```
-Great! Now goto any project and search for any keyword like so:
-
-```bash
-rg "keyword"
 ```
 
 ### Install Apps
@@ -96,6 +57,8 @@ rg "keyword"
 - [Brew services menubar](https://github.com/andrewn/brew-services-menubar)
 
 - [VSCode](https://code.visualstudio.com/download)
+
+- [Oh My ZSH](https://ohmyz.sh/)
 
 - [Git Fork](https://git-fork.com/)
     
@@ -276,46 +239,6 @@ Now install bundler which help us manage Ruby gems:
 ```bash
 gem install bundler
 ```
-
-
-### Installing Node
-
-We recommend to use [nvm](https://github.com/nvm-sh/nvm) to manage versions of Node.
-
-#### Installing nvm
-
-Follow the installation instructions [here](https://github.com/nvm-sh/nvm#install--update-script)
-
-#### Install a node version using nvm
-
-To install, say node 8.14.0, run
-
-```bash
-nvm install 8.14.0
-```
-
-The first node version installed becomes the default. New shells will start with the default version of node.
-
-#### Useful nvm commands
-
-If you want to see what node versions are installed
-
-```bash
-nvm ls
-```
-
-To use a different node version, say 12.6.0 as the default node version everywhere
-
-```bash
-nvm alias default 12.6.0
-```
-
-To use a different node version for the current directory
-
-```bash
-nvm use 10.16.0
-```
-
 
 ### Installing yarn
 You shouldn't use npm command in BigBinary projects.
