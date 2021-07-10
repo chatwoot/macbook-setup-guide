@@ -14,7 +14,7 @@ This guide enlists common steps to set up your macbook for the day to day local 
     - [Installing nvm](#installing-nvm)
     - [Install a node version using nvm](#install-a-node-version-using-nvm)
     - [Useful nvm commands](#useful-nvm-commands)
-- [###Installing yarn](####installing-yarn)
+- [Installing yarn](#installing-yarn)
 
 ## Setting up macOS
 
