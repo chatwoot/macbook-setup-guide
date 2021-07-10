@@ -14,8 +14,7 @@ This guide enlists common steps to set up your macbook for the day to day local 
     - [Installing nvm](#installing-nvm)
     - [Install a node version using nvm](#install-a-node-version-using-nvm)
     - [Useful nvm commands](#useful-nvm-commands)
-- [Customizing terminal prompt](#customizing-terminal-prompt)
-- [Generating a new SSH key](#generating-a-new-ssh-key)
+- [###Installing yarn](####installing-yarn)
 
 ## Setting up macOS
 
@@ -231,6 +230,20 @@ Set up rbenv in your shell.
 ```bash
 rbenv init
 ```
+
+If you are using zsh shell then use the following command:
+```bash
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+```
+
+Add `~/.rbenv/bin` to your `$PATH` for accessing the rbenv command-line utility.
+
+If you are using zsh shell then use the following command:
+
+```bash
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+```
+
 #### Installing a Ruby version using rbenv
 
 To install, say Ruby 2.5.3, run
@@ -258,6 +271,12 @@ To set a different Ruby version for the current directory
 ```bash
 rbenv local 1.9.3-p327
 ```
+
+Now install bundler which help us manage Ruby gems:
+```bash
+gem install bundler
+```
+
 
 ### Installing Node
 
@@ -297,6 +316,16 @@ To use a different node version for the current directory
 nvm use 10.16.0
 ```
 
+
+### Installing yarn
+You shouldn't use npm command in BigBinary projects.
+
+We make use of yarn to manage JavaScript libraries and tool chains.
+
+Install it:
+```bash
+brew install yarn
+```
 
 1. [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
 2. [Setup Macbook M1 for Web and React Native development](https://amanhimself.dev/blog/setup-macbook-m1/)
