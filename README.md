@@ -49,25 +49,23 @@ chsh -s $(which zsh)
 
 ### Install Apps
 
-- [Tree](https://www.sourcetreeapp.com/)
+- [Tree](https://www.sourcetreeapp.com/)- Git IDE
 
-- [iTerm2](https://iterm2.com/)
+- [iTerm2](https://iterm2.com/)- Terminal app
 
-- [Brew services menubar](https://github.com/andrewn/brew-services-menubar)
+- [Brew services menubar](https://github.com/andrewn/brew-services-menubar)- Read the `homebrew services` command, showing you the status of your services and allowing them to be started, stopped and restarted.
 
-- [VSCode](https://code.visualstudio.com/download)
+- [VSCode](https://code.visualstudio.com/download) - Editor
 
-- [Oh My ZSH](https://ohmyz.sh/)
-
-- [Git Fork](https://git-fork.com/)
+- [Oh My ZSH](https://ohmyz.sh/) - Tool for managing the ZSH configuration guide
     
-- [Postico](https://eggerapps.at/postico/)
+- [Postico](https://eggerapps.at/postico/) - Postgres IDE
 
-- [Itsycal](https://github.com/sfsam/Itsycal)
+- [Itsycal](https://github.com/sfsam/Itsycal) - Tiny calendar for macbook menu bar
 
-- [Pandan](https://apps.apple.com/app/id1569600264)
+- [Pandan](https://apps.apple.com/app/id1569600264) - Time awareness in your menubar
 
-- [Notion](https://www.notion.so/desktop)
+- [Notion](https://www.notion.so/desktop)- Note taking tool
     
 
 ### Installing Node
@@ -249,5 +247,7 @@ Install it:
 brew install yarn
 ```
 
-1. [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
-2. [Setup Macbook M1 for Web and React Native development](https://amanhimself.dev/blog/setup-macbook-m1/)
+### References
+
+- [Setting up a Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/?ck_subscriber_id=360218762)
+- [Setup Macbook M1 for Web and React Native development](https://amanhimself.dev/blog/setup-macbook-m1/)
