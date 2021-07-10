@@ -4,12 +4,11 @@ This guide enlists common steps to set up your macbook for the day to day local 
 
 
 - [Install Homebrew package manager](#install-homebrew-package-manager)
-- [Make ZSH as default shell](#ensure-zsh-is-default-shell)
+- [Make ZSH as default shell](#make-zsh-as-default-shell)
 - [Install Apps](#install-apps)
-
 - [Installing Node](#installing-node)
     - [Installing nvm](#installing-nvm)
-    - [Install a node version using nvm](#install-a-node-version-using-nvm)
+    - [Install a specific node version using nvm](#install-a-specific-node-version-using-nvm)
     - [Useful nvm commands](#useful-nvm-commands)
 - [Installing Postgres](#installing-postgres)
 - [Installing Redis](#installing-redis)
