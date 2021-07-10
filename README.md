@@ -33,6 +33,61 @@ brew update
 
 **NOTE:** DO NOT use Homebrew to install `node` or `ruby` package.
 
+
+### Ensure ZSH is default shell
+Before going forward, please make sure `zsh` is your default terminal shell.
+
+You can run `echo $SHELL` to see what's the current shell.
+
+If it's not your default shell, then set it up manually:
+
+```bash
+chsh -s $(which zsh)
+```
+
+### Installing [Oh My ZSH](https://ohmyz.sh/)
+
+Oh My Zsh(OMZ) is a delightful, open source, community-driven framework for managing your Zsh configuration.
+
+It comes bundled with thousands of helpful functions, helpers, plugins, themes, and other goodies that will make you say Oh My ...!.
+
+Install OMZ:
+
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Now restart your terminal.
+
+### Add OMZ plugins
+
+To add a new plugin, type the names shown in parentheses below to plugins key, making sure to include a space between each name.
+
+Add the following at the top of your .zshrc:
+
+
+```bash
+plugins=(git ruby rails yarn bundler docker docker-compose brew osx z node)
+```
+
+If you ever feel that your SHELL is slow in starting, then removing few of these plugins is a good step.
+
+### Installing ripgrep
+
+You can search a keyword/sentence within a directory or file and ripgrep will give your the results almost instantly.
+
+ripgrep is really fast when compared to other searching tools like find.
+
+Let's install it:
+```bash
+brew install ripgrep
+```
+Great! Now goto any project and search for any keyword like so:
+
+```bash
+rg "keyword"
+```
+
 ### Install Apps
 
 - [Tree](https://www.sourcetreeapp.com/)
@@ -44,8 +99,6 @@ brew update
 - [VSCode](https://code.visualstudio.com/download)
 
 - [Git Fork](https://git-fork.com/)
-
-- [Ohmyz](https://ohmyz.sh/)
     
 - [Postico](https://eggerapps.at/postico/)
 
