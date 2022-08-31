@@ -114,6 +114,8 @@ brew install --cask visual-studio-code
 
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker)- OctoLinker is a browser extension for GitHub, that turns language-specific statements like include require or import into links
 
+- https://daisydiskapp.com/ - Anaylze disk usage
+
 
 ### Installing Node
 
