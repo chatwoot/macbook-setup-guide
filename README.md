@@ -123,9 +123,8 @@ We recommend to use [nvm](https://github.com/nvm-sh/nvm) to install Node.js. Thi
 
 #### Installing nvm
 
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-```
+https://github.com/nvm-sh/nvm#install--update-script
+
 
 #### Install a latest node version
 
