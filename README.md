@@ -28,6 +28,7 @@ Rosetta 2 is the lifeline that allows you to run apps designed for Intel-based c
 ```bash
 /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ```
+
 ### Install Homebrew package manager
 
 Run following command in terminal
