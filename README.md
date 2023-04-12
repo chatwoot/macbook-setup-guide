@@ -115,8 +115,15 @@ brew install --cask visual-studio-code
 
 - [OctoLinker](https://github.com/OctoLinker/OctoLinker)- OctoLinker is a browser extension for GitHub, that turns language-specific statements like include require or import into links
 
-- https://daisydiskapp.com/ - Anaylze disk usage
+- [Daisydiskapp](https://daisydiskapp.com/)- Anaylze disk usage (https://mail.google.com/mail/u/0/#search/daisydiskapp/FMfcgzGqPphPBnxmTJvvdHCfxZvrNSnJ)
 
+- [CleanshotX](https://cleanshot.com/)- Screenshot tool.
+
+- [Devcleaner](https://apps.apple.com/us/app/devcleaner-for-xcode/id1388020431?mt=12)- Free your Xcode space.
+
+- [Rectangle](https://rectangleapp.com/)- Move and resize windows in macOS using keyboard shortcuts or snap areas
+
+- [Raycast](https://www.raycast.com/)- Productivity tool.
 
 ### Installing Node
 
